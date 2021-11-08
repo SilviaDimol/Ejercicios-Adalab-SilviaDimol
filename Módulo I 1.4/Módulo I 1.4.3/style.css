@@ -1,0 +1,25 @@
+/* flex */
+
+.container {
+  height: 100px;
+  box-sizing: border-box;
+  border: 5px solid rgb(138, 24, 104);
+  background-color: rgb(249, 252, 250);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: grow;
+}
+
+.item {
+  padding: 20px;
+}
+
+.item-1 {
+}
+
+.item-2 {
+}
+.item-3 {
+}
