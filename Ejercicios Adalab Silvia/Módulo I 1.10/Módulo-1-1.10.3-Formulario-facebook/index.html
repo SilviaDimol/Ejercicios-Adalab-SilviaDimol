@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <main>
+      <h1>Create an account</h1>
+      <h2>It's free and always will be</h2>
+      <form action="">
+        <fieldset>
+          <input type="text" placeholder="First Name" id="firstName" />
+          <input type="text" placeholder="Surname" id="surname" />
+        </fieldset>
+        <input
+          type="text"
+          placeholder="Email or mobile number"
+          id="emailOrMobile"
+        />
+        <input
+          type="text"
+          placeholder="Re-enter email or mobile number"
+          id="confirmEmailOrMobile"
+        />
+        <input type="password" placeholder="New password" id="password" />
+        <fieldset>
+          <legend>Birthday</legend>
+          <select name="" id="day">
+            <option value="Day" hidden selected>Day</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+          <select name="" id="month">
+            <option value="mes" hidden selected>Month</option>
+            <option value="Enero" id="enero">Enero</option>
+            <option value="Febrero" id="febrero">Febrero</option>
+          </select>
+          <select name="year" id="year">
+            <option value="year" hidden selected>Year</option>
+            <option value="1994" id="1994">1994</option>
+            <option value="1995" id="1995">1995</option>
+          </select>
+          <a href="#" title="lee nuestras políticas"
+            >Why do I need to provide my birth date?</a
+          >
+        </fieldset>
+        <fieldset>
+          <label for="mujer">
+            Mujer
+            <input type="radio" name="genero" id="mujer" />
+          </label>
+          <label for="hombre">
+            Hombre
+            <input type="radio" name="genero" id="hombre" />
+          </label>
+        </fieldset>
+        <p>
+          By clicking Create an account you agree to our
+          <a href="">Terms</a> and you have read <a href="">Data Policy</a>,
+          including our <a href="">Cookie use</a>.
+        </p>
+        <button type="submit">Create an account</button>
+      </form>
+    </main>
+  </body>
+</html>
