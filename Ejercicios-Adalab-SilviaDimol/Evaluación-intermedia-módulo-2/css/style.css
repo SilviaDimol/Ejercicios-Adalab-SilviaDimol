@@ -1,0 +1,7 @@
+.main {
+  background-color: rgb(2, 7, 73);
+  color: rgb(250, 252, 167);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
