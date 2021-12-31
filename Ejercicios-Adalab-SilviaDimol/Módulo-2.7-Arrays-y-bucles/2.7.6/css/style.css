@@ -1,0 +1,15 @@
+.alarm1 {
+    background-color: white;
+}
+
+.alarm2 {
+    background-color: white;
+}
+
+.alarm3 {
+    background-color: white;  
+}
+
+.alarmActive {
+    background-color: red;
+}

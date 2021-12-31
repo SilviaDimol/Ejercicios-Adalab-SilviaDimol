@@ -1,3 +1,4 @@
+'use strict';
 
 /*EJERCICIO 3
 Bio de Adalabers 2
